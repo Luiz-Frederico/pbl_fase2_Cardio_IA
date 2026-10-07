@@ -635,6 +635,8 @@ Kaggle:
 
 https://www.kaggle.com/datasets/y20cs3255ramu/ecg-image-dataset-normal-abnormal
 
+👉 [Ver exemplos de imagens do ECG](images/Crop_Dataset/)
+
 ### Auditoria
 
 | Característica | Resultado |
