@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.fiap.com.br/">
-    <img src="https://github.com/Luiz-Frederico/templateFiap/blob/main/assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" border="0" width="40%" height="40%">
+    <img src="https://github.com/Luiz-Frederico/templateFiap/blob/main/assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width="40%" height="40%">
   </a>
 </p>
 
@@ -23,43 +23,53 @@
 ![Pillow](https://img.shields.io/badge/Pillow-Image%20Processing-3776AB?style=for-the-badge)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+![KaggleHub](https://img.shields.io/badge/KaggleHub-Dataset%20Download-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
 
-## Integrante
+# CardioIA-Fase 2
 
+
+
+## Integrantes: 
 <p align="left">
   <a href="https://github.com/Luiz-Frederico" target="_blank">
     <img src="https://github.com/Luiz-Frederico.png" width="64" height="64" alt="@Luiz-Frederico" />
   </a>
+  </a>
+  <a href="https://github.com/henriquehsilva" target="_blank">
+    <img src="https://github.com/henriquehsilva.png" width="64" height="64" alt="@henriquehsilva" />
+  </a>
+  <a href="https://github.com/manoellaweiser-gif" target="_blank">
+    <img src="https://github.com/manoellaweiser-gif.png" width="64" height="64" alt="@manoellaweiser-gif" />
+  </a>
+  <a href="https://github.com/JoaoMDPaiva" target="_blank">
+    <img src="https://github.com/JoaoMDPaiva.png" width="64" height="64" alt="@JoaoMDPaiva" />
+  </a>
+  <a href="https://github.com/younmariana-create" target="_blank">
+    <img src="https://github.com/younmariana-create.png" width="64" height="64" alt="@younmariana-create" />
+  </a>
 </p>
 
-**Luiz Frederico Nunes Campelo**
-
-## Professores
-
-### Coordenador(a) / Tutor(a)
-
+## Professores:
+### Coordenador(a) / Tutor(a) 
 <p align="left">
   <a href="https://github.com/agodoi" target="_blank">
     <img src="https://github.com/agodoi.png" width="64" height="64" alt="@agodoi" />
+  <a href="https://github.com/leoruiz197" target="_blank">
+    <img src="https://github.com/leoruiz197.png" width="64" height="64" alt="@leoruiz197" />
   </a>
-  <a href="https://github.com/SabrinaOtoni" target="_blank">
-    <img src="https://github.com/SabrinaOtoni.png" width="64" height="64" alt="@SabrinaOtoni" />
-  </a>
-</p>
 
----
 
 ## 📜 Descrição
 
 O **CardioIA** é um projeto acadêmico desenvolvido na Fase 2 com o objetivo de aplicar técnicas de **Processamento de Linguagem Natural, Machine Learning e Redes Neurais** em um cenário experimental de apoio à triagem de risco cardiovascular.
 
-A solução foi organizada em três frentes complementares.
+A solução foi organizada em três frentes complementares, cada uma disponibilizada em um **notebook independente**, permitindo execução e avaliação separadas.
 
 Na **Parte 1**, foi construído um mapa de conhecimento que relaciona pares de sintomas a possíveis condições cardíacas. O sistema processa relatos textuais, normaliza expressões, utiliza lematização com spaCy e identifica associações presentes na ontologia. Também foi incorporado tratamento de negação por análise de dependência sintática, evitando que sintomas explicitamente negados contribuam para a sugestão produzida pelo sistema.
 
-Na **Parte 2**, foi desenvolvido um classificador supervisionado para distinguir relatos de **alto risco** e **baixo risco**. Os textos são pré-processados com a mesma lógica de negação utilizada na Parte 1, representados numericamente com **TF-IDF** e classificados por **Regressão Logística**. O desenvolvimento incluiu análise de pesos, auditoria de erros, investigação de um falso positivo, ampliação do dataset e reavaliação do modelo.
+Na **Parte 2**, foi desenvolvido um classificador supervisionado para distinguir relatos de **alto risco** e **baixo risco**. O notebook implementa de forma autônoma a mesma estratégia de tratamento de negação utilizada na Parte 1, mas **não depende dos arquivos gerados por ela**. Os textos são representados numericamente com **TF-IDF** e classificados por **Regressão Logística**. O desenvolvimento incluiu análise de pesos, auditoria de erros, investigação de um falso positivo, ampliação do dataset e reavaliação do modelo.
 
-No **Ir Além 2**, o projeto foi ampliado para visão computacional, utilizando uma **MLP (Perceptron Multicamadas)** implementada com TensorFlow/Keras para classificar imagens de eletrocardiogramas em **Normal** ou **Anormal**. O fluxo contemplou auditoria do dataset, pré-processamento das imagens, comparação controlada de arquiteturas e hiperparâmetros, seleção do modelo e avaliação final em conjunto de teste reservado.
+No **Ir Além 2**, o projeto foi ampliado para visão computacional, utilizando uma **MLP (Perceptron Multicamadas)** implementada com TensorFlow/Keras para classificar imagens de eletrocardiogramas em **Normal** ou **Anormal**. O fluxo contemplou download automatizado do dataset via **KaggleHub**, auditoria dos dados, pré-processamento das imagens, comparação controlada de arquiteturas e hiperparâmetros, seleção do modelo e avaliação final em conjunto de teste reservado.
 
 O projeto possui finalidade exclusivamente **acadêmica e experimental**. As associações, classificações e previsões produzidas não representam diagnóstico médico e não devem substituir avaliação de profissionais de saúde.
 
@@ -79,6 +89,7 @@ O projeto possui finalidade exclusivamente **acadêmica e experimental**. As ass
 
 O projeto contempla:
 
+- **três notebooks independentes**, correspondentes à Parte 1, Parte 2 e Ir Além 2;
 - processamento automatizado de relatos de sintomas;
 - mapa de conhecimento em CSV com associações entre sintomas e condições;
 - normalização, lematização e tratamento de negação com spaCy;
@@ -89,6 +100,7 @@ O projeto contempla:
 - análise dos pesos aprendidos pelo modelo;
 - auditoria e investigação de erros de classificação;
 - teste interativo com novas frases;
+- download automatizado do dataset de ECG com KaggleHub;
 - auditoria e pré-processamento de imagens de ECG;
 - MLP com TensorFlow/Keras;
 - experimentos controlados de arquitetura e treinamento;
@@ -335,6 +347,17 @@ Além dos arquivos, foram implementados:
 
 ---
 
+
+### 📓 Notebook da Parte 1
+
+O código referente à **Parte 1 — Frases de sintomas e extração de informações** está disponível em um notebook independente:
+
+**Arquivo:** `Parte_1_Extracao_Sintomas_Mapa_Conhecimento.ipynb`
+
+👉 [Abrir notebook da Parte 1](notebooks/Parte_1_Extracao_Sintomas_Mapa_Conhecimento.ipynb)
+
+---
+
 # 🤖 Parte 2 — Classificador de Risco Cardiovascular
 
 ## Objetivo
@@ -372,9 +395,11 @@ Retreinamento
 
 ---
 
-## Integração com a Parte 1
+## Estratégia de Negação Compartilhada
 
-A lógica de negação implementada na Parte 1 foi reaproveitada como pré-processamento na Parte 2.
+A Parte 2 utiliza a **mesma estratégia conceitual de tratamento de negação** aplicada na Parte 1, baseada em análise de dependência sintática com spaCy.
+
+Entretanto, as funções necessárias são implementadas novamente no próprio notebook da Parte 2. Dessa forma, o classificador pode ser executado **de maneira independente**, sem depender de `sintomas_pacientes.txt`, `ontologia_sintomas.csv` ou `resultados_diagnostico_parte1.csv`.
 
 Tokens sob escopo de negação recebem o prefixo:
 
@@ -408,7 +433,7 @@ de:
 "Não sinto dor no peito"
 ```
 
-O mesmo pré-processamento é aplicado durante treino, teste e inferência.
+O mesmo pré-processamento é aplicado de forma consistente durante treinamento, teste e classificação de novos relatos.
 
 ---
 
@@ -508,11 +533,11 @@ Após o ajuste do dataset e o retreinamento:
 | Baixo risco | **30** |
 | Treino | **48 frases** |
 | Teste | **12 frases** |
-| Acurácia anterior | **90,00%** |
+| Acurácia inicial | **90,00%** |
 | Acurácia final | **100,00%** |
-| Melhoria | **+10,00 p.p.** |
-| Falsos positivos | **0** |
-| Falsos negativos | **0** |
+| Diferença observada | **+10,00 p.p.** |
+| Falsos positivos na avaliação final | **0** |
+| Falsos negativos na avaliação final | **0** |
 
 ### Matriz de confusão final
 
@@ -529,7 +554,9 @@ Após o ajuste do dataset e o retreinamento:
 | Baixo risco | **1,00** | **1,00** | **1,00** | 6 |
 | **Accuracy** |  |  | **1,00** | **12** |
 
-O resultado de 100% ocorreu em um conjunto **pequeno, simulado e controlado**. Portanto, não representa desempenho esperado em dados clínicos reais.
+A comparação de **90% para 100%** representa duas etapas experimentais do projeto. Após a ampliação da base de 50 para 60 frases, foi realizado um **novo `train_test_split`**, portanto os conjuntos de teste não são exatamente os mesmos nas duas avaliações.
+
+O resultado de 100% ocorreu sobre apenas **12 amostras de teste**, em um dataset **pequeno, simulado e controlado**. Portanto, não representa desempenho esperado em dados clínicos reais.
 
 ---
 
@@ -569,6 +596,14 @@ matriz de confusão
 classification report
 teste interativo
 ```
+
+### 📓 Notebook da Parte 2
+
+O código referente à **Parte 2 — Classificador de risco com TF-IDF e Regressão Logística** está disponível em um notebook independente:
+
+**Arquivo:** `Parte_2_Classificador_Risco_TFIDF_Regressao_Logistica.ipynb`
+
+👉 [Abrir notebook da Parte 2](notebooks/Parte_2_Classificador_Risco_TFIDF_Regressao_Logistica.ipynb)
 
 ---
 
@@ -789,6 +824,15 @@ o modelo apresentou:
 | Classificações corretas | **178** |
 | Classificações incorretas | **33** |
 
+### 📓 Notebook do Ir Além 2
+
+O código referente ao **Ir Além 2 — Diagnóstico visual em cardiologia com rede neural** está disponível em um notebook independente:
+
+**Arquivo:** `Ir_Alem_2_CardioIA_MLP_ECG.ipynb`
+
+👉 [Abrir notebook do Ir Além 2](notebooks/Ir_Alem_2_CardioIA_MLP_ECG.ipynb)
+
+
 ---
 
 # 📊 Resumo Geral dos Resultados
@@ -852,12 +896,14 @@ Não foram realizadas medições de energia ou emissões de carbono. Portanto, a
 
 Entre as principais limitações do projeto estão:
 
-- os dados textuais das Partes 1 e 2 são simulados e controlados;
-- o resultado de 100% da Parte 2 foi obtido em apenas 12 amostras de teste;
+- os dados textuais das Partes 1 e 2 são **simulados e controlados**;
 - a ontologia da Parte 1 foi construída especificamente para o escopo acadêmico da atividade;
+- o tratamento de negação com spaCy utiliza uma **estratégia sintática simplificada**, adequada ao experimento, mas que não cobre toda a complexidade da linguagem natural;
 - TF-IDF não compreende contexto semântico de forma nativa, exigindo tratamento explícito de negação;
+- o resultado de **100% da Parte 2** foi obtido em apenas **12 amostras de teste**;
+- a comparação entre 90% e 100% corresponde a duas etapas experimentais com **novas divisões treino/teste**, e não à avaliação dos dois modelos sobre exatamente as mesmas amostras;
 - os datasets não possuem metadados demográficos suficientes para análise de fairness;
-- o dataset de ECG contém apenas 1.405 imagens;
+- o dataset de ECG contém apenas **1.405 imagens**;
 - existe desbalanceamento moderado entre as classes do dataset de ECG;
 - o redimensionamento para 128 × 128 pode reduzir detalhes da imagem original;
 - a MLP utiliza `Flatten` e não explora diretamente a estrutura espacial das imagens;
@@ -870,14 +916,10 @@ Entre as principais limitações do projeto estão:
 
 # 📁 Estrutura de Pastas
 
-A estrutura utilizada no projeto pode ser organizada da seguinte forma:
+A estrutura utilizada no projeto está organizada da seguinte forma:
 
 ```text
-CardioIA/
-│
-├── notebooks/
-│   ├── FASE_2_Diagnostico_Automatizado_IA_no_Estetoscopio_Digital.ipynb
-│   └── Ir_Alem_2_CardioIA_MLP_ECG.ipynb
+pbl_fase2_Cardio_IA/
 │
 ├── data/
 │   ├── sintomas_pacientes.txt
@@ -890,15 +932,20 @@ CardioIA/
 │       ├── ECG_Abnormal/
 │       └── ECG_Normal/
 │
-├── assets/
-│   └── logo-fiap.png
+├── notebooks/
+│   ├── Parte_1_Extracao_Sintomas_Mapa_Conhecimento.ipynb
+│   ├── Parte_2_Classificador_Risco_TFIDF_Regressao_Logistica.ipynb
+│   └── Ir_Alem_2_CardioIA_MLP_ECG.ipynb
 │
 └── README.md
 ```
 
-A pasta `images/` é utilizada pelo **Ir Além 2** para armazenar o dataset de ECG.
+- `data/`: contém os arquivos `.txt` e `.csv` utilizados nas Partes 1 e 2. Alguns desses arquivos são gerados pelos próprios notebooks durante a execução.
+- `images/Crop_Dataset/`: representa a estrutura das imagens de ECG utilizadas no Ir Além 2, separadas entre `ECG_Abnormal` e `ECG_Normal`.
+- `notebooks/`: contém os três notebooks independentes do projeto.
+- `README.md`: documentação geral da Fase 2.
 
-Os arquivos `.txt` e `.csv` das Partes 1 e 2 podem ser gerados diretamente pelo notebook durante a execução.
+> No Ir Além 2, o dataset é obtido automaticamente via **KaggleHub**. A estrutura `Crop_Dataset/` é mantida aqui para documentar a organização das imagens utilizada pelo notebook.
 
 ---
 
@@ -910,7 +957,7 @@ Recomenda-se utilizar:
 
 - Python 3.10 ou superior;
 - Google Colab ou ambiente compatível com Jupyter Notebook;
-- acesso à internet para instalação/download inicial de dependências e dataset.
+- acesso à internet para instalação inicial das dependências e download do dataset de ECG.
 
 ### Bibliotecas principais
 
@@ -921,13 +968,17 @@ python -m spacy download pt_core_news_sm
 
 ---
 
-## Parte 1 e Parte 2
+## Parte 1 — Extração de Sintomas e Mapa de Conhecimento
 
 Abra o notebook:
 
 ```text
-FASE_2_Diagnostico_Automatizado_IA_no_Estetoscopio_Digital.ipynb
+Parte_1_Extracao_Sintomas_Mapa_Conhecimento.ipynb
 ```
+
+Ou utilize o link direto do repositório:
+
+👉 [Abrir notebook da Parte 1](notebooks/Parte_1_Extracao_Sintomas_Mapa_Conhecimento.ipynb)
 
 Execute as células na ordem apresentada.
 
@@ -936,43 +987,102 @@ O notebook realiza:
 ```text
 Instalação/carregamento do spaCy
         ↓
-Criação dos relatos
+Criação dos 10 relatos-base + 4 casos de negação
         ↓
-Criação da ontologia
+Criação da ontologia com 15 associações
+        ↓
+Normalização e lematização
+        ↓
+Detecção do escopo de negação
         ↓
 Extração de sintomas
         ↓
-Tratamento de negação
+Pontuação das associações
         ↓
-Exportação dos resultados
+Sugestão simulada de condição
         ↓
-Criação do dataset de triagem
+Exportação para resultados_diagnostico_parte1.csv
+```
+
+A Parte 1 gera os arquivos:
+
+```text
+sintomas_pacientes.txt
+ontologia_sintomas.csv
+resultados_diagnostico_parte1.csv
+```
+
+---
+
+## Parte 2 — Classificador de Risco
+
+Abra o notebook:
+
+```text
+Parte_2_Classificador_Risco_TFIDF_Regressao_Logistica.ipynb
+```
+
+Ou utilize o link direto do repositório:
+
+👉 [Abrir notebook da Parte 2](notebooks/Parte_2_Classificador_Risco_TFIDF_Regressao_Logistica.ipynb)
+
+Execute as células na ordem apresentada.
+
+A Parte 2 é **autossuficiente**: ela implementa novamente as funções necessárias ao tratamento de negação e não depende dos arquivos gerados pela Parte 1.
+
+O notebook realiza:
+
+```text
+Instalação/carregamento do spaCy
+        ↓
+Tratamento independente de negação
+        ↓
+Criação da base inicial com 50 frases
+        ↓
+Divisão treino/teste
         ↓
 TF-IDF
         ↓
 Regressão Logística
         ↓
-Auditoria
+Avaliação inicial
         ↓
-Ajuste do dataset
+Auditoria de pesos e erros
         ↓
-Reavaliação
+Ampliação da base para 60 frases
+        ↓
+Novo treinamento e avaliação
         ↓
 Teste interativo
 ```
 
+O principal arquivo de dados dessa etapa é:
+
+```text
+base_triagem_risco.csv
+```
+
 ---
 
-## Ir Além 2
+## Ir Além 2 — Classificação Visual de ECG
 
-O dataset de imagens de ECG é obtido diretamente do Kaggle utilizando a biblioteca `kagglehub`. Portanto, não é necessário baixar manualmente as imagens ou adicioná-las ao repositório.
+Abra o notebook:
 
-### Instalação do KaggleHub
+```text
+Ir_Alem_2_CardioIA_MLP_ECG.ipynb
+```
+
+Ou utilize o link direto do repositório:
+
+👉 [Abrir notebook do Ir Além 2](notebooks/Ir_Alem_2_CardioIA_MLP_ECG.ipynb)
+
+O dataset de imagens é obtido diretamente do Kaggle utilizando a biblioteca `kagglehub`. Portanto, não é necessário realizar o download manual das 1.405 imagens.
+
+### Download do dataset
 
 ```python
 !pip install -q kagglehub
-```
-```
+
 import kagglehub
 
 # Download da versão mais recente do dataset
@@ -983,26 +1093,21 @@ path = kagglehub.dataset_download(
 print("Dataset baixado em:")
 print(path)
 ```
-O kagglehub.dataset_download() retorna o caminho local em que o dataset foi armazenado no ambiente de execução.
-A partir desse caminho, o notebook acessa as duas classes disponíveis no dataset:
 
-```
+O `kagglehub.dataset_download()` retorna o caminho local onde o dataset foi armazenado no ambiente de execução.
+
+A partir desse caminho, o notebook acessa:
+
+```text
 Crop_Dataset/
 ├── ECG_Abnormal/
 └── ECG_Normal/
 ```
 
-Em seguida, abra:
+O fluxo do notebook é:
 
 ```text
-Ir_Alem_2_CardioIA_MLP_ECG.ipynb
-```
-
-e execute as células na ordem apresentada.
-
-O notebook realiza:
-
-```Download do dataset
+Download do dataset
         ↓
 Auditoria das imagens
         ↓
@@ -1022,6 +1127,8 @@ Seleção do modelo
         ↓
 Avaliação final no conjunto de teste
 ```
+
+> É necessária conexão com a internet durante o download inicial do dataset.
 
 ---
 
@@ -1080,7 +1187,7 @@ Vídeo de apresentação da Fase 2 do projeto CardioIA:
 # 🔗 Repositório
 
 **GitHub:**  
-[URL_DO_REPOSITORIO]
+https://github.com/Luiz-Frederico/pbl_fase2_Cardio_IA
 
 ---
 
@@ -1116,14 +1223,20 @@ Vídeo de apresentação da Fase 2 do projeto CardioIA:
 
 # 🗃 Histórico de Lançamentos
 
+- **0.4.0 - 07/10/2026**
+  - Separação das Partes 1 e 2 em **notebooks independentes**.
+  - Adequação da Parte 2 para execução autônoma do tratamento de negação.
+  - Atualização da estrutura e instruções de execução do repositório.
+  - Inclusão do download automatizado do dataset de ECG com **KaggleHub**.
+  - Consolidação da documentação final da Fase 2.
+
 - **0.3.0 - 07/10/2026**
-  - Integração do tratamento de negação entre as Partes 1 e 2.
+  - Integração conceitual do tratamento de negação entre as Partes 1 e 2.
   - Ampliação da base textual para 60 frases balanceadas.
   - Auditoria e reavaliação do classificador.
   - Consolidação do Ir Além 2 com MLP para imagens de ECG.
   - Seleção do modelo final com Adam.
   - Avaliação final de **84,36%** no conjunto de teste de ECG.
-  - Consolidação da documentação final do projeto.
 
 - **0.2.0 - 03/10/2026**
   - Implementação do classificador de risco cardiovascular.
@@ -1141,13 +1254,13 @@ Vídeo de apresentação da Fase 2 do projeto CardioIA:
 
 # ✅ Conclusão
 
-O CardioIA permitiu explorar três abordagens complementares de Inteligência Artificial aplicadas a um contexto acadêmico de apoio à triagem cardiovascular.
+O CardioIA permitiu explorar três abordagens complementares de Inteligência Artificial aplicadas a um contexto acadêmico de apoio à triagem cardiovascular, organizadas em **três notebooks independentes e reproduzíveis**.
 
-Na **Parte 1**, foi desenvolvido um sistema baseado em regras e mapa de conhecimento para extrair sintomas de relatos textuais, incluindo tratamento explícito de negação por meio da análise de dependência sintática do spaCy.
+Na **Parte 1**, foi desenvolvido um sistema baseado em regras e mapa de conhecimento para extrair sintomas de relatos textuais, incluindo tratamento explícito de negação por meio da análise de dependência sintática do spaCy. Foram processados **14 relatos**, com **15 associações** no mapa de conhecimento e validação específica de quatro casos com negação.
 
-Na **Parte 2**, a mesma lógica de negação foi integrada a um pipeline clássico de Machine Learning utilizando **TF-IDF e Regressão Logística**. A auditoria dos erros levou à ampliação do dataset para **60 frases balanceadas**, e o modelo alcançou **100% de acurácia nas 12 amostras do conjunto de teste controlado**.
+Na **Parte 2**, a estratégia de negação foi implementada novamente no próprio notebook para permitir execução independente. O classificador utiliza **TF-IDF e Regressão Logística**, acompanhado de análise dos pesos, investigação de erros e melhoria da representatividade dos dados. O dataset foi ampliado de **50 para 60 frases balanceadas**. Na avaliação final, o modelo obteve **100% de acurácia em 12 amostras de teste**, resultado que deve ser interpretado exclusivamente dentro deste experimento pequeno, simulado e controlado. A comparação com os 90% da etapa inicial corresponde a duas divisões experimentais diferentes.
 
-No **Ir Além 2**, foi desenvolvida uma MLP em Keras para classificação de imagens de ECG. Após experimentos controlados, a configuração com arquitetura **128–64**, otimizador **Adam**, learning rate **0,0005**, batch size 32 e seed 42 apresentou a melhor combinação avaliada.
+No **Ir Além 2**, foi desenvolvida uma MLP em Keras para classificação de imagens de ECG. O dataset público é obtido automaticamente por **KaggleHub**, e as imagens passam por auditoria, conversão para escala de cinza, redimensionamento para 128 × 128 e normalização. Após experimentos controlados, a configuração com arquitetura **128–64**, otimizador **Adam**, learning rate **0,0005**, batch size 32 e seed 42 apresentou a melhor combinação avaliada.
 
 A melhor acurácia de validação foi de **84,83%**, enquanto a avaliação final sobre **211 imagens mantidas fora do processo de seleção** alcançou **84,36%**, com loss de **0,3394**.
 
