@@ -1183,7 +1183,7 @@ Avaliação final no conjunto de teste
 Vídeo de apresentação da Fase 2 do projeto CardioIA:
 
 **YouTube:**  
-[LINK_DO_VIDEO_YOUTUBE]
+👉 [Assistir no YouTube](https://www.youtube.com/watch?v=9c2iv5kDfqg)
 
 ---
 
