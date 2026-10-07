@@ -31,21 +31,22 @@
 
 ## Integrantes: 
 <p align="left">
+  </a>
   <a href="https://github.com/Luiz-Frederico" target="_blank">
     <img src="https://github.com/Luiz-Frederico.png" width="64" height="64" alt="@Luiz-Frederico" />
   </a>
+  <a href="https://github.com/younmariana-create" target="_blank">
+    <img src="https://github.com/younmariana-create.png" width="64" height="64" alt="@younmariana-create" />
   </a>
-  <a href="https://github.com/henriquehsilva" target="_blank">
-    <img src="https://github.com/henriquehsilva.png" width="64" height="64" alt="@henriquehsilva" />
   </a>
   <a href="https://github.com/manoellaweiser-gif" target="_blank">
     <img src="https://github.com/manoellaweiser-gif.png" width="64" height="64" alt="@manoellaweiser-gif" />
   </a>
+  <a href="https://github.com/henriquehsilva" target="_blank">
+    <img src="https://github.com/henriquehsilva.png" width="64" height="64" alt="@henriquehsilva" />
+  
   <a href="https://github.com/JoaoMDPaiva" target="_blank">
     <img src="https://github.com/JoaoMDPaiva.png" width="64" height="64" alt="@JoaoMDPaiva" />
-  </a>
-  <a href="https://github.com/younmariana-create" target="_blank">
-    <img src="https://github.com/younmariana-create.png" width="64" height="64" alt="@younmariana-create" />
   </a>
 </p>
 
