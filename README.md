@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.fiap.com.br/">
-    <img src="https://github.com/Luiz-Frederico/templateFiap/blob/main/assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" border="0" width="40%" height="40%">
+    <img src="https://github.com/Luiz-Frederico/templateFiap/blob/main/assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width="40%" height="40%">
   </a>
 </p>
 
@@ -24,30 +24,39 @@
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
 
-## Integrante
+# CardioIA-Fase 2
 
+
+
+## Integrantes: 
 <p align="left">
   <a href="https://github.com/Luiz-Frederico" target="_blank">
     <img src="https://github.com/Luiz-Frederico.png" width="64" height="64" alt="@Luiz-Frederico" />
   </a>
+  </a>
+  <a href="https://github.com/henriquehsilva" target="_blank">
+    <img src="https://github.com/henriquehsilva.png" width="64" height="64" alt="@henriquehsilva" />
+  </a>
+  <a href="https://github.com/manoellaweiser-gif" target="_blank">
+    <img src="https://github.com/manoellaweiser-gif.png" width="64" height="64" alt="@manoellaweiser-gif" />
+  </a>
+  <a href="https://github.com/JoaoMDPaiva" target="_blank">
+    <img src="https://github.com/JoaoMDPaiva.png" width="64" height="64" alt="@JoaoMDPaiva" />
+  </a>
+  <a href="https://github.com/younmariana-create" target="_blank">
+    <img src="https://github.com/younmariana-create.png" width="64" height="64" alt="@younmariana-create" />
+  </a>
 </p>
 
-**Luiz Frederico Nunes Campelo**
-
-## Professores
-
-### Coordenador(a) / Tutor(a)
-
+## Professores:
+### Coordenador(a) / Tutor(a) 
 <p align="left">
   <a href="https://github.com/agodoi" target="_blank">
     <img src="https://github.com/agodoi.png" width="64" height="64" alt="@agodoi" />
+  <a href="https://github.com/leoruiz197" target="_blank">
+    <img src="https://github.com/leoruiz197.png" width="64" height="64" alt="@leoruiz197" />
   </a>
-  <a href="https://github.com/SabrinaOtoni" target="_blank">
-    <img src="https://github.com/SabrinaOtoni.png" width="64" height="64" alt="@SabrinaOtoni" />
-  </a>
-</p>
 
----
 
 ## 📜 Descrição
 
@@ -570,6 +579,14 @@ classification report
 teste interativo
 ```
 
+### 📓 Notebook principal 
+
+O código referente à **Parte 1 — Frases de sintomas + extração de informações** e à **Parte 2 — Classificador básico de texto** está disponível em um único notebook:
+
+**Arquivo:** `FASE_2_Diagnostico_Automatizado_IA_no_Estetoscopio_Digital.ipynb`
+
+👉 [Abrir notebook ](notebooks/FASE_2_Diagnostico_Automatizado_IA_no_Estetoscopio_Digital.ipynb)
+
 ---
 
 # ❤️ Ir Além 2 — Diagnóstico Visual em Cardiologia com Rede Neural
@@ -789,6 +806,15 @@ o modelo apresentou:
 | Classificações corretas | **178** |
 | Classificações incorretas | **33** |
 
+### 📓 Notebook principal 
+
+O código referente à **Ir Além 2 – Diagnóstico visual em cardiologia com rede neural** está disponível no notebook:
+
+**Arquivo:** `Ir_Alem_2_CardioIA_MLP_ECG.ipynb`
+
+👉 [Abrir notebook ](notebooks/Ir_Alem_2_CardioIA_MLP_ECG.ipynb)
+
+
 ---
 
 # 📊 Resumo Geral dos Resultados
@@ -873,11 +899,7 @@ Entre as principais limitações do projeto estão:
 A estrutura utilizada no projeto pode ser organizada da seguinte forma:
 
 ```text
-CardioIA/
-│
-├── notebooks/
-│   ├── FASE_2_Diagnostico_Automatizado_IA_no_Estetoscopio_Digital.ipynb
-│   └── Ir_Alem_2_CardioIA_MLP_ECG.ipynb
+pbl_fase2_Cardio_IA/
 │
 ├── data/
 │   ├── sintomas_pacientes.txt
@@ -890,15 +912,19 @@ CardioIA/
 │       ├── ECG_Abnormal/
 │       └── ECG_Normal/
 │
-├── assets/
-│   └── logo-fiap.png
+├── notebooks/
+│   ├── FASE_2_Diagnostico_Automatizado_IA_no_Estetoscopio_Digital.ipynb
+│   └── Ir_Alem_2_CardioIA_MLP_ECG.ipynb
 │
 └── README.md
+
 ```
 
-A pasta `images/` é utilizada pelo **Ir Além 2** para armazenar o dataset de ECG.
+- `data/`: arquivos `.csv` e `.txt` utilizados nas atividades das Partes 1 e 2. Alguns desses arquivos podem ser gerados diretamente pelos notebooks durante a execução.
+- `images/`: utilizada pelo **Ir Além 2** para armazenar o dataset de ECG.
+- `notebooks/`: contém os notebooks `.ipynb` desenvolvidos no projeto.
+- `README.md`: documentação geral do projeto.
 
-Os arquivos `.txt` e `.csv` das Partes 1 e 2 podem ser gerados diretamente pelo notebook durante a execução.
 
 ---
 
