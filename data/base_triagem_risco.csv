@@ -1,0 +1,61 @@
+frase,situacao
+Sinto uma dor intensa no peito que se espalha para o braço esquerdo,alto risco
+Estou com uma pressão muito forte no tórax acompanhada de falta de ar,alto risco
+Meu coração está disparando e tive tontura seguida de desmaio,alto risco
+A falta de ar começou de repente e veio acompanhada de dor no peito,alto risco
+Estou sentindo dor forte no tórax junto com suor frio e náusea,alto risco
+Tenho uma pressão intensa no peito e formigamento no braço,alto risco
+Sinto um aperto muito forte no peito e dificuldade para respirar,alto risco
+Uma dor no peito começou durante o esforço físico e está muito intensa,alto risco
+Estou com dificuldade grave para respirar e uma dor torácica súbita,alto risco
+Tive uma tontura intensa acompanhada de dor no peito e visão turva,alto risco
+Sinto uma pressão no peito NEG_que NEG_não NEG_melhora e estou com muita falta de ar,alto risco
+Comecei a sentir uma dor forte no tórax acompanhada de fraqueza repentina,alto risco
+Estou com dor intensa no peito e sensação de desmaio,alto risco
+Sinto uma dor no peito que piora quando faço esforço e vem acompanhada de suor frio,alto risco
+Minha respiração ficou muito difícil de repente e estou sentindo pressão no peito,alto risco
+Tenho palpitações muito fortes acompanhadas de tontura e fraqueza,alto risco
+Estou sentindo um aperto intenso no tórax e uma sensação de falta de ar,alto risco
+A dor no peito é forte e começou junto com suor frio e enjoo,alto risco
+Sinto dor torácica intensa acompanhada de falta de ar e tontura,alto risco
+Uma forte pressão no peito começou repentinamente e estou com dificuldade para respirar,alto risco
+Estou cansado depois de um dia inteiro trabalhando,baixo risco
+Sinto uma dor nas costas depois de passar muitas horas sentado,baixo risco
+Tenho um desconforto muscular no peito depois de fazer exercícios,baixo risco
+Fico com sono e fadiga no período da tarde,baixo risco
+Estou com uma dor de cabeça que começou depois do almoço,baixo risco
+Sinto um pequeno incômodo nas articulações ao acordar,baixo risco
+"Tenho sentido cansaço durante as últimas semanas , sem outros sintomas",baixo risco
+Estou com coriza e uma irritação leve na garganta,baixo risco
+Sinto um desconforto no estômago depois das refeições,baixo risco
+Tenho uma pontada na costela que desaparece rapidamente,baixo risco
+"Estou cansado após caminhar por bastante tempo , mas consigo continuar normalmente",baixo risco
+Minha garganta está um pouco irritada desde ontem,baixo risco
+Sinto dores musculares depois de realizar atividades físicas,baixo risco
+Tenho um leve desconforto nas costas quando permaneço muito tempo sentado,baixo risco
+Estou com sono durante o dia porque dormi poucas horas na noite anterior,baixo risco
+Sinto uma pequena dor de cabeça que melhora quando descanso,baixo risco
+Tenho um desconforto abdominal ocasional depois de comer,baixo risco
+Estou sentindo uma dor muscular nas pernas após uma caminhada longa,baixo risco
+Minha garganta está irritada e estou com coriza leve,baixo risco
+Sinto um pequeno incômodo no ombro depois de carregar peso,baixo risco
+"NEG_Não NEG_sinto NEG_dor NEG_no NEG_peito , NEG_apenas NEG_um NEG_leve NEG_cansaço",baixo risco
+NEG_Não NEG_tenho NEG_falta NEG_de NEG_ar NEG_nem NEG_palpitações,baixo risco
+"NEG_Nunca NEG_senti NEG_aperto NEG_no NEG_tórax , NEG_somente NEG_um NEG_cansaço NEG_ocasional",baixo risco
+NEG_Jamais NEG_tive NEG_dor NEG_no NEG_peito NEG_ou NEG_desmaio,baixo risco
+"NEG_Não NEG_sinto NEG_pressão NEG_no NEG_peito , apenas um desconforto leve nas costas",baixo risco
+"NEG_Não NEG_tenho NEG_falta NEG_de NEG_ar , mas sinto uma dor no peito intensa",alto risco
+"NEG_Não NEG_sinto NEG_tontura , porém tenho dor no peito que irradia para o braço",alto risco
+"NEG_Não NEG_tenho NEG_palpitações , NEG_mas NEG_estou NEG_com NEG_aperto NEG_no NEG_tórax e suor frio",alto risco
+"NEG_Não NEG_estou NEG_com NEG_desmaio , mas sinto dor torácica forte e falta de ar",alto risco
+"NEG_Não NEG_sinto NEG_fraqueza , porém tenho pressão no peito e dificuldade para respirar",alto risco
+Estou com uma dor muscular nas pernas depois de uma caminhada,baixo risco
+Sinto dor muscular nos braços após realizar exercícios,baixo risco
+Tenho uma dor leve nas pernas depois de uma atividade física,baixo risco
+Estou sentindo dor muscular nas costas após carregar peso,baixo risco
+Tenho um desconforto muscular nas pernas que melhora com descanso,baixo risco
+Estou com uma dor intensa no peito acompanhada de falta de ar,alto risco
+Sinto uma dor forte no tórax que começou repentinamente,alto risco
+Tenho uma dor intensa no peito acompanhada de suor frio,alto risco
+Estou com dor torácica forte e sensação de desmaio,alto risco
+Sinto uma dor muito forte no peito durante esforço físico,alto risco

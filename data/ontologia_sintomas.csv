@@ -1,0 +1,16 @@
+Sintoma_1,Sintoma_2,Doenca_Associada
+dor no peito,esforço físico,Infarto
+dor no peito,braço esquerdo,Infarto
+dor no peito,suor frio,Infarto
+dor no peito,tontura,Infarto
+aperto no tórax,suor frio,Infarto
+aperto no tórax,tontura,Infarto
+cansaço constante,mesmo depois de descansar,Insuficiência Cardíaca
+cansaço constante,falta de ar,Insuficiência Cardíaca
+fadiga,fraqueza no corpo,Insuficiência Cardíaca
+falta de ar,dificuldade para respirar,Angina
+falta de ar,caminhar,Angina
+falta de ar,esforço físico,Angina
+palpitações,dor no peito,Arritmia Cardíaca
+palpitações,tontura,Arritmia Cardíaca
+aperto no tórax,falta de ar,Angina
