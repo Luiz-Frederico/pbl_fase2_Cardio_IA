@@ -1182,10 +1182,15 @@ Avaliação final no conjunto de teste
 
 Vídeo de apresentação da Fase 2 do projeto CardioIA:
 
+### Parte 1 e Parte 2
+
 **YouTube:**  
 👉 [Assistir no YouTube](https://www.youtube.com/watch?v=9c2iv5kDfqg)
 
----
+### Ir Além
+
+**YouTube:**  
+👉 [Assistir ao vídeo do Ir Além](https://youtu.be/UgyL6gYJtnM)
 
 # 🔗 Repositório
 
